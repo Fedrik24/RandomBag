@@ -11,7 +11,7 @@ public class PoolPrefabs : MonoBehaviour
     [SerializeField] private bool nestUnderParent;
 
     public Action<GameObject> blocks;
-    public List<GameObject> poolerBlocks;
+    private List<GameObject> poolerBlocks;
 
     private void Start()
     {
